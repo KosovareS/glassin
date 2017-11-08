@@ -5,27 +5,41 @@
  */
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif !important; }
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+  li a .nav-link{
+    font-size: 20px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  }
+
+.info-text{
+
+padding-bottom: 5px;
+text-align: center;
+font-size: 20px;
+font-family; 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 
 p {
   line-height: 1.75; }
 
 a {
-  color: #ffffff; }
-  a.active, a:active, a:focus, a:hover {
-    color: #fec503 !important; }
+  color: #ffffff;
+}
+a.active, a:active, a:focus, a:hover {
+  color: #fec503 !important;
+}
 
 .text-primary {
-  color: #fed136 !important; }
+  color: #fed136 !important;
+}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif !important; }
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
 
 section {
   padding: 100px 0; }
