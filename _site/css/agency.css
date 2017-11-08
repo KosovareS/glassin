@@ -63,6 +63,28 @@ section {
   transform: scale(1.1) rotate(360deg);
   }
 
+
+#mainNav.shrink {
+  position: fixed;
+  min-height: 35px;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 5;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+
+}
+
+.navbar-brand.shrink{
+  width: 200px;
+}
+
+#mainNav.shrink a {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  font-size: 15px;
+  color:#fff;
+}
+
 @media (min-width: 768px) {
   section {
     padding: 100px 0; } }
@@ -129,10 +151,7 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #fed136; }
 
-#mainNav {
-  background-color: #212529 !important;}
   #mainNav .navbar-toggler {
-
     font-size: 12px;
     right: 0;
     padding: 13px;
@@ -159,7 +178,6 @@ body {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
     padding-bottom: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -302,21 +320,6 @@ i.fa.fa-facebook-square.fa-2x, i.fa.fa-envelope.fa-2x, i.fa.fa-phone.fa-2x {
 #portfolio * {
   z-index: 2; }
 
-nav.navbar.shrink {
-  min-height: 35px;
-  background-color: rgba(0,0,0,0.4);
-  z-index: 1;
-  -webkit-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
-
-}
-
-nav.shrink a {
-  padding-top: 5px !important;
-  padding-bottom: 5px !important;
-  font-size: 15px;
-  color:#fff;
-}
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
