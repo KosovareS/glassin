@@ -715,6 +715,20 @@
                           </div>
                         </div>
             <!-- Bootstrap core JavaScript -->
+            <script>
+                        $(window).load(function() {
+                    // Animate loader off screen
+                        $(“#page-top”).fadeOut(“slow”);;
+                        });
+
+                $(window).scroll(function() {
+                  if ($(document).scrollTop() > 50) {
+                    $(‘nav’).addClass(‘shrink’);
+                  } else {
+                    $(‘nav’).removeClass(‘shrink’);
+                  }
+                });
+              </script>
             <script src="vendor/jquery/jquery.min.js"></script>
             <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 

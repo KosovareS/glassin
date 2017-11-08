@@ -61,7 +61,6 @@ section {
 .service-image:hover {
 
   transform: scale(1.1) rotate(360deg);
-
   }
 
 @media (min-width: 768px) {
@@ -228,7 +227,7 @@ header.masthead {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
-  font-size: 30px !important;}
+  font-size: 20px !important;}
 
 .sub-title{
   margin-top: 50px;
@@ -303,6 +302,21 @@ i.fa.fa-facebook-square.fa-2x, i.fa.fa-envelope.fa-2x, i.fa.fa-phone.fa-2x {
 #portfolio * {
   z-index: 2; }
 
+nav.navbar.shrink {
+  min-height: 35px;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 1;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+
+}
+
+nav.shrink a {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  font-size: 15px;
+  color:#fff;
+}
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
