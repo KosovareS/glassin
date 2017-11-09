@@ -166,7 +166,6 @@ body {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 
@@ -621,9 +620,9 @@ footer {
 
 .navbar{
   position:absolute;
-  width:100%;
   z-index:10;
   max-width:100%;
+  width: 100%;
 }
 
 ul.social-buttons {

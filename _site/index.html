@@ -19,6 +19,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
+    <link href="css/responsiveness.css" rel="stylesheet">
     <!--Icons-->
     <link rel="icon" href="img/icons"/>
 
@@ -26,25 +27,30 @@
 
   <body id="page-top">
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-expand-lg navbar-light static-top sb-navbar">
-      <div class="container-fluid">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" >
-          <i class="fa fa-bars"></i>
-        </button>
-        <img class="navbar-brand" src="img/glassin-logo.png">
-        <div class="intro-text">
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav text-uppercase ml-auto">
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services"><b>Services</b></a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio"><b>Portfolio</b></a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"><b>About</b></a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"><b>Team</b></a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact"><b>Contact</b></a></li>
-            </ul>
+    <div class="container-fluid">
+
+      <nav id="mainNav" class="navbar navbar-expand-lg row">
+          <div class="col-md-4 col-lg-4 col-sm-4">
+              <a href="/"><img class="navbar-brand" src="img/glassin-logo.png"></a>
           </div>
-        </div>
-      </div>
-    </nav>
+
+          <div class="col-md-8 col-lg-8 col-sm-6">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services"><b>Services</b></a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio"><b>Portfolio</b></a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"><b>About</b></a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"><b>Team</b></a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact"><b>Contact</b></a></li>
+                </ul>
+              </div>
+          </div>
+      </nav>
+    </div>
     <!--Carousel-->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -325,22 +331,18 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-7">
+          <div class="col-sm-6">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/2.png" alt="">
               <h4>Sylejman Meta</h4><br>
-                <p class="text-muted info-text">Founder and Chief Production Engineer</p>
-                <p class="text-muted info-text">sylejman.meta@gmail.com</p>
-                <p class="text-muted info-text">+377 (0)45 500 774</p>
+                <p class="text-muted info-text">Founder and Chief Production Engineer<br>sylejman.meta@gmail.com<br>+377 (0) 45 500 774</p>
               </div>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-6">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/1.png" alt="">
               <h4>Ermal Meta</h4><br>
-                <p class="text-muted info-text">Operational Manager</p>
-                <p class="text-muted info-text">ermal.meta@gmail.com</p>
-                <p class="text-muted info-text">+377 (0)49 500 774</p>
+                <p class="text-muted info-text">Operational Manager<br>ermal.meta@gmail.com<br>+377 (0) 49 500 774</p>
               </div>
           </div>
           </div>
@@ -355,9 +357,7 @@
                 <p>Parku i Biznesit, C-03, 13000, Drenas, Kosovo<br/> 10000, Pristina, Kosovo</p>
               </div>
               <div class="col-sm-4">
-                <a class="social-link" target="_blank" href="https://www.facebook.com/glassinkosovo/&#10;"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-                <a class="social-link" target="_blank" href="mailto:sylejman.meta@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-                <a class="social-link" target="_blank" href="tel:+377 (0)45 500 774"><i class="fa fa-phone  fa-2x" aria-hidden="true"></i></a>
+                <p>www.facebook.com/glassinkosovo <br/>Email: info@glassin.com<br/>Cell: +377 (0)45/49 500 774</p>
               </div>
               <div class="col-sm-4 text-right">
                 <p><b>© GlassIn 2017</b></p>
