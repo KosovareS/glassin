@@ -1,4 +1,4 @@
-@media (max-width: 320px){
+@media (max-width: 320px) {
   .team-member img {
     width: 150px;
     height: 150px;
@@ -12,6 +12,7 @@
 }
 
 @media (min-width: 768px) {
+
   section {
     padding: 100px 0;
   }
@@ -21,23 +22,41 @@
     padding-bottom: 200px;
   }
 
-  #navbarResponsive{
-    display: inline-block;
+  .mainNav{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
   }
 
-  button.navbar-toggler.navbar-toggler-right.collapsed{
+  img.navbar-band {
+    width: 250px !important;
+  }
+
+  button.navbar-toggler {
+    display: flex;
+    float: right;
+  }
+
+  button.navbar-toggler.navbar-toggler-right.collapsed {
     border:none;
     backround-color: #fff;
+    float:right;
   }
 
-  .container-fluid{
+  a.nav-link.js-scroll-trigger {
+      float: right;
+  }
+
+  .container-fluid {
     margin-left: 10px;
   }
 
-  .service-headiing{
+  .service-headiing {
     margin-bottom: 20px;
-
   }
+
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
     font-style: italic;
@@ -147,9 +166,9 @@
   }
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   img.navbar-brand {
-    width: 200px !important;
+    width: 250px !important;
   }
 }
 
@@ -177,7 +196,7 @@
   }
 }
 
-@media (max-width: 12080px){
+@media (max-width: 12080px) {
   .site-footer {
     font-size: 18px;
     padding: 10px 20px;

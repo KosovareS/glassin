@@ -465,7 +465,7 @@ i.fa.fa-facebook-square.fa-2x, i.fa.fa-envelope.fa-2x, i.fa.fa-phone.fa-2x {
 }
 
 .timeline > li .timeline-image {
-  position: absolute;
+  position: flex;
   z-index: 100;
   left: 0;
   width: 80px;
