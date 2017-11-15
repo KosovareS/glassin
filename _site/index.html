@@ -32,23 +32,21 @@
       <nav id="mainNav" class="navbar navbar-expand-lg row">
           <div class="col-md-4 col-lg-4 col-sm-4">
               <a href="/"><img class="navbar-band" src="img/glassin-logo.png"></a>
-          </div>
-
-          <div class="col-md-8 col-lg-8 col-sm-6">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            </div>
+          <div class="col-md-8 col-lg-8 col-sm-4">
+              <button type="button" class="navbar-toggler"  data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true">
                 <i class="fa fa-bars"></i>
               </button>
-
-              <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ml-auto">
-                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services"><b>Services</b></a></li>
-                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio"><b>Portfolio</b></a></li>
-                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"><b>About</b></a></li>
-                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"><b>Team</b></a></li>
-                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact"><b>Contact</b></a></li>
-                </ul>
-              </div>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services"><b>Services</b></a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio"><b>Portfolio</b></a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"><b>About</b></a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"><b>Team</b></a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact"><b>Contact</b></a></li>
+              </ul>
           </div>
+        </div>
       </nav>
     </div>
     <!--Carousel-->
@@ -116,19 +114,19 @@
         </div>
         <div class="row text-center">
           <div class="col-md-4">
-            <span class="fa-stack fa-4x" style="margin-top: 50px">
+            <span class="fa-stack fa-4x">
               <img src="img/icons/3.png" class="fa-stack-1x fa-inverse service-image" alt=""/>
             </span>
             <h4 class="service-heading">Fasada Strukturale</h4>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x" style="margin-top: 50px">
+            <span class="fa-stack fa-4x">
               <img src="img/icons/1.png" class="fa-stack-1x fa-inverse service-image" alt=""/>
             </span>
             <h4 class="service-heading">Konstruksione te Celikut</h4>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x" style="margin-top: 50px;">
+            <span class="fa-stack fa-4x">
               <img src="img/icons/6.png" class="fa-stack-1x fa-inverse service-image" alt=""/>
             </span>
             <h4 class="service-heading">Panele Solare</h4>
@@ -146,7 +144,7 @@
             <br>
           </div>
         </div>
-        <div class="row">
+        <div class="row" id="row-portfolio">
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
@@ -334,14 +332,14 @@
           <div class="col-sm-6">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/2.png" alt="">
-              <h4>Sylejman Meta</h4><br>
+              <h4 id="team-member">Sylejman Meta</h4><br>
                 <p class="text-muted info-text">Founder and Chief Production Engineer<br>sylejman.meta@gmail.com<br>+377 (0) 45 500 774</p>
               </div>
           </div>
           <div class="col-sm-6">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/1.png" alt="">
-              <h4>Ermal Meta</h4><br>
+              <h4 id="team-member">Ermal Meta</h4><br>
                 <p class="text-muted info-text">Operational Manager<br>ermal.meta@gmail.com<br>+377 (0) 49 500 774</p>
               </div>
           </div>
@@ -353,13 +351,13 @@
   <div class="container-fluid">
       <footer class="site-footer" id="contact">
           <div class="row">
-              <div class="col-sm-4 text-left">
+              <div class="col-sm-4 text-left" id="footer-text">
                 <p>Parku i Biznesit, C-03, 13000, Drenas, Kosovo<br/> 10000, Pristina, Kosovo</p>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-4" id="footer-text">
                 <p>www.facebook.com/glassinkosovo <br/>Email: info@glassin.com<br/>Cell: +377 (0)45/49 500 774</p>
               </div>
-              <div class="col-sm-4 text-right">
+              <div class="col-sm-4 text-right" id="footer-text">
                 <p><b>© GlassIn 2017</b></p>
               </div>
           </div>

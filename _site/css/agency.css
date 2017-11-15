@@ -8,6 +8,9 @@ li a .nav-link{
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+col-md-4 {
+    margin-top: 50px;
+}
 .info-text{
   padding-bottom: 5px;
   text-align: center;
@@ -74,6 +77,12 @@ section h3.section-subheading {
 
 .navbar-brand.shrink{
   width: 200px;
+}
+
+#mainNav .navbar navbar-expand-lg row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 #mainNav.shrink a {
