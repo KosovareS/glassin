@@ -15,6 +15,24 @@
     width: 200px !important;
     margin-left: auto;
   }
+
+  div#row-portfolio {
+    padding-right: 10px;
+    padding-left: -10px;
+  }
+
+  h4, p.text-muted {
+    padding: 0px !important;
+  }
+
+  p.section-subheading.text-muted.main-text, p.section-subheading.text-muted.sub-text {
+    line-height: 1.2;
+  }
+
+  h4.service-heading {
+    margin: 0px !important;
+    margin-top: 10px !important;
+  }
 }
 
 @media (max-width: 480px) {
@@ -78,6 +96,16 @@
     width: 200px !important;
     margin-left: auto;
   }
+
+  footer#contact {
+    padding: 20px;
+    margin: 0px;
+  }
+
+  p{
+    font-size: 12px;
+    line-height: 1.7;
+  }
 }
 
 @media (min-width: 767px) {
@@ -87,7 +115,6 @@
 }
 
 @media (min-width: 768px) {
-
   section {
     padding: 100px 0;
   }
@@ -187,8 +214,14 @@
   section#portfolio, section#about, section#team {
   margin-top: -100px;
   }
+
   div#footer-text {
     font-size: 16px;
+  }
+
+  /*footer-alignment */
+  .container-fluid {
+    padding: 0px;
   }
 }
 
